@@ -38,6 +38,15 @@ class ProductsVC: UIViewController, UICollectionViewDataSource, UICollectionView
         }
         return ProductCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goToBuyProductVC", sender: self)
+    }
 
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let buyProductVC = segue.destination as? BuyProductVC {
+//            BuyProductVC.initializeProducts(forCategory: sender as! Product)
+//        }
+//    }
 
 }

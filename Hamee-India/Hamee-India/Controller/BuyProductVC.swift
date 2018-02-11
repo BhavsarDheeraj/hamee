@@ -10,6 +10,18 @@ import UIKit
 
 class BuyProductVC: UIViewController {
 
+    
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productTitle: UILabel!
+    @IBOutlet weak var productPrice: UILabel!
+    @IBOutlet weak var productDescription: UITextView!
+    
+//    private(set) public var product = Product(title: <#T##String#>, price: <#T##String#>, imageName: <#T##String#>)
+    
+//    func initializeProduct(forProduct poduct: Product) {
+//        product = DataService.instance.getProducts(forCategoryTitle: category.title)
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

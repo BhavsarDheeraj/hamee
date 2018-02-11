@@ -12,16 +12,18 @@ class DataService {
     
     static let instance = DataService()
     
+    private let productDescription = "Description: Our most popular bottle, available in a variety of colors to help brighten up anybody’s gear. The large opening on our wide-mouth bottles easily accommodates ice cubes, fits most water purifiers and filters, and makes hand washing a breeze. The attached loop-top never gets lost and screws on and off easily. Printed graduations let keep track of your hydration. Dishwasher safe (Please make sure the top does not touch the heating element, or it will melt).\nWhy we love it: It’s clear this is a product that customers love. The description clearly articulates the water bottles special perks and practicality. Nalgene is also very smart to include that its product is dishwasher safe; touching on what could be a pain point for its customers. Finally, the company makes an important disclaimer with the text “Please make sure the top does not touch the heating element” to provide valuable product care information that will help the company proactively reduce returns."
+    
     private let categories = [
-        Category(title: "POWER BANK", imageName: "powerbank.png"),
-        Category(title: "PHONE COVER", imageName: "phonecover.png"),
-        Category(title: "NOTEBOOK", imageName: "notebook.png"),
-        Category(title: "MOUSE PAD", imageName: "mousepad.png"),
-        Category(title: "MACBOOK CASE", imageName: "macbookcase.png"),
-        Category(title: "TABLET CASE", imageName: "tabletcase.png"),
-        Category(title: "COFFEE MUG", imageName: "coffeemug.png"),
-        Category(title: "WATER BOTTLE", imageName: "waterbottle.png"),
-        Category(title: "LAPTOP DECALS", imageName: "laptopdecals.png")
+        Category(title: "POWER BANK", imageName: "powerbank.jpg"),
+        Category(title: "PHONE COVER", imageName: "phonecover.jpg"),
+        Category(title: "NOTEBOOK", imageName: "notebook.jpg"),
+        Category(title: "MOUSE PAD", imageName: "mousepad.jpg"),
+        Category(title: "MACBOOK CASE", imageName: "macbookcase.jpg"),
+        Category(title: "TABLET CASE", imageName: "tabletcase.jpg"),
+        Category(title: "COFFEE MUG", imageName: "coffeemug.jpg"),
+        Category(title: "WATER BOTTLE", imageName: "waterbottle.jpg"),
+        Category(title: "LAPTOP DECALS", imageName: "laptopdecals.jpg")
     ]
     
     private let powerbanks = [

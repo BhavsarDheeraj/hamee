@@ -19,6 +19,7 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         categoryTable.delegate = self
         categoryTable.dataSource = self
+        self.categoryTable.rowHeight = 270
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
